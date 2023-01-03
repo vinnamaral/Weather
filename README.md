@@ -11,7 +11,7 @@ https://open-meteo.com/en
 ✓ Kotlin </br>
 ✓ MVI </br>
 ✓ Dependency injection (Hilt) </br>
-✓ Android Jetpack Components </br>
+✓ Jetpack Compose </br>
 ✓ API Consumption (Coroutines + Retrofit) </br>
 ✓ Moshi </br>
 ✓ Clean Architecture </br>️
