@@ -39,4 +39,29 @@ fun WeatherForecast(
             })
         }
     }
+    state.weatherInfo?.weatherDataPerDay?.get(1)?.let { data ->
+        Column(
+            modifier = modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp)
+                .padding(top = 16.dp)
+        ) {
+            Text(
+                text = "Tomorrow",
+                fontSize = 20.sp,
+                color = Color.White
+            )
+            Spacer(modifier = Modifier.height(16.dp))
+            LazyRow(content = {
+                items(data) { weatherData ->
+                    HourlyWeatherDisplay(
+                        weatherData = weatherData,
+                        modifier = Modifier
+                            .height(100.dp)
+                            .padding(horizontal = 16.dp)
+                    )
+                }
+            })
+        }
+    }
 }
