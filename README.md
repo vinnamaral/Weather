@@ -13,7 +13,7 @@ https://open-meteo.com/en
 ✓ Dependency injection (Hilt) </br>
 ✓ Android Jetpack Components </br>
 ✓ API Consumption (Coroutines + Retrofit) </br>
-✓ Moshi
+✓ Moshi </br>
 ✓ Clean Architecture </br>️
 
 ## App
