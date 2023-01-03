@@ -1,7 +1,7 @@
 package com.vinicius.weather.domain.weather
 
-import androidx.annotation.DrawableRes
 import com.vinicius.weather.R
+import androidx.annotation.DrawableRes
 
 sealed class WeatherType(
     val weatherDesc: String,
